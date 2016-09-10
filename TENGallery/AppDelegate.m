@@ -16,6 +16,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+//    [MagicalRecord setu]
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4FD82B6A17532711DEBB8A /* libPods-TENGallery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B5D3F83F4EECDFDEA7EC0C /* libPods-TENGallery.a */; };
 		761E49CA1D7C118A00FB0533 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E49C91D7C118A00FB0533 /* AppDelegate.m */; };
 		761E49CD1D7C118A00FB0533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E49CC1D7C118A00FB0533 /* main.m */; };
 		761E49EF1D7C386F00FB0533 /* TENModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E49E31D7C386F00FB0533 /* TENModel.m */; };
@@ -27,9 +28,11 @@
 		761E4A2F1D7CB15700FB0533 /* TENConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A2E1D7CB15700FB0533 /* TENConstant.m */; };
 		761E4A331D7D4FF300FB0533 /* NSImage+GaussBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A321D7D4FF300FB0533 /* NSImage+GaussBlur.m */; };
 		769573411D83F6B4007AF86B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769573401D83F6B4007AF86B /* CoreData.framework */; };
+		769573471D83F751007AF86B /* TENGallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 769573451D83F751007AF86B /* TENGallery.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73B5D3F83F4EECDFDEA7EC0C /* libPods-TENGallery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TENGallery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761E49C51D7C118A00FB0533 /* TENGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TENGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		761E49C81D7C118A00FB0533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		761E49C91D7C118A00FB0533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +71,9 @@
 		761E4A311D7D4FF300FB0533 /* NSImage+GaussBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+GaussBlur.h"; sourceTree = "<group>"; };
 		761E4A321D7D4FF300FB0533 /* NSImage+GaussBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+GaussBlur.m"; sourceTree = "<group>"; };
 		769573401D83F6B4007AF86B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		769573461D83F751007AF86B /* TENGallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TENGallery.xcdatamodel; sourceTree = "<group>"; };
+		E3F28957F6AD6AFECDEB29F3 /* Pods-TENGallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENGallery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TENGallery/Pods-TENGallery.debug.xcconfig"; sourceTree = "<group>"; };
+		ED77D101A9A7336457664AF1 /* Pods-TENGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TENGallery.release.xcconfig"; path = "Pods/Target Support Files/Pods-TENGallery/Pods-TENGallery.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +82,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				769573411D83F6B4007AF86B /* CoreData.framework in Frameworks */,
+				1C4FD82B6A17532711DEBB8A /* libPods-TENGallery.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47854FCE21149B4D6F2191FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3F28957F6AD6AFECDEB29F3 /* Pods-TENGallery.debug.xcconfig */,
+				ED77D101A9A7336457664AF1 /* Pods-TENGallery.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69B76895E75A117476F57D3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73B5D3F83F4EECDFDEA7EC0C /* libPods-TENGallery.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		761E49BC1D7C118A00FB0533 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +114,8 @@
 				761E49DD1D7C386F00FB0533 /* Source */,
 				761E49C71D7C118A00FB0533 /* TENGallery */,
 				761E49C61D7C118A00FB0533 /* Products */,
+				47854FCE21149B4D6F2191FC /* Pods */,
+				69B76895E75A117476F57D3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +135,7 @@
 				761E49D61D7C118A00FB0533 /* Info.plist */,
 				761E49CB1D7C118A00FB0533 /* Supporting Files */,
 				761E4A161D7C41A200FB0533 /* TENGalleryPrefixHeader.pch */,
+				769573451D83F751007AF86B /* TENGallery.xcdatamodeld */,
 			);
 			path = TENGallery;
 			sourceTree = "<group>";
@@ -333,9 +360,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 761E49D91D7C118A00FB0533 /* Build configuration list for PBXNativeTarget "TENGallery" */;
 			buildPhases = (
+				DE586E4334F73799CEC2FFCA /* [CP] Check Pods Manifest.lock */,
 				761E49C11D7C118A00FB0533 /* Sources */,
 				761E49C21D7C118A00FB0533 /* Frameworks */,
 				761E49C31D7C118A00FB0533 /* Resources */,
+				3C0468592BF846C4B0779E53 /* [CP] Embed Pods Frameworks */,
+				175D782E2DFF516F0CF2E0DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -391,12 +421,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		175D782E2DFF516F0CF2E0DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TENGallery/Pods-TENGallery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C0468592BF846C4B0779E53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TENGallery/Pods-TENGallery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE586E4334F73799CEC2FFCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		761E49C11D7C118A00FB0533 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				761E49EF1D7C386F00FB0533 /* TENModel.m in Sources */,
+				769573471D83F751007AF86B /* TENGallery.xcdatamodeld in Sources */,
 				761E49FF1D7C399200FB0533 /* TENGalleryViewController.m in Sources */,
 				761E49CD1D7C118A00FB0533 /* main.m in Sources */,
 				761E4A251D7C956D00FB0533 /* TENWindow.m in Sources */,
@@ -512,6 +591,7 @@
 		};
 		761E49DA1D7C118A00FB0533 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F28957F6AD6AFECDEB29F3 /* Pods-TENGallery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -525,6 +605,7 @@
 		};
 		761E49DB1D7C118A00FB0533 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED77D101A9A7336457664AF1 /* Pods-TENGallery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -558,6 +639,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		769573451D83F751007AF86B /* TENGallery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				769573461D83F751007AF86B /* TENGallery.xcdatamodel */,
+			);
+			currentVersion = 769573461D83F751007AF86B /* TENGallery.xcdatamodel */;
+			path = TENGallery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 761E49BD1D7C118A00FB0533 /* Project object */;
 }

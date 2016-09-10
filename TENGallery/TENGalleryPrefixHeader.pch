@@ -9,6 +9,10 @@
 #import "TENMacro.h"
 #import "TENConstant.h"
 
+#import "MagicalRecord.h"
+
+#define MR_SHORTHAND
+
 #ifndef TENGalleryPrefixHeader_pch
 #define TENGalleryPrefixHeader_pch
 
