@@ -26,6 +26,7 @@
 		761E4A251D7C956D00FB0533 /* TENWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A241D7C956D00FB0533 /* TENWindow.m */; };
 		761E4A2F1D7CB15700FB0533 /* TENConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A2E1D7CB15700FB0533 /* TENConstant.m */; };
 		761E4A331D7D4FF300FB0533 /* NSImage+GaussBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A321D7D4FF300FB0533 /* NSImage+GaussBlur.m */; };
+		769573411D83F6B4007AF86B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769573401D83F6B4007AF86B /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		761E4A2E1D7CB15700FB0533 /* TENConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENConstant.m; sourceTree = "<group>"; };
 		761E4A311D7D4FF300FB0533 /* NSImage+GaussBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+GaussBlur.h"; sourceTree = "<group>"; };
 		761E4A321D7D4FF300FB0533 /* NSImage+GaussBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+GaussBlur.m"; sourceTree = "<group>"; };
+		769573401D83F6B4007AF86B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				769573411D83F6B4007AF86B /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +85,7 @@
 		761E49BC1D7C118A00FB0533 = {
 			isa = PBXGroup;
 			children = (
+				769573401D83F6B4007AF86B /* CoreData.framework */,
 				761E49DC1D7C386F00FB0533 /* Resources */,
 				761E49DD1D7C386F00FB0533 /* Source */,
 				761E49C71D7C118A00FB0533 /* TENGallery */,
