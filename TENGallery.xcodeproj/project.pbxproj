@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761E49CA1D7C118A00FB0533 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E49C91D7C118A00FB0533 /* AppDelegate.m */; };
+		761E49CD1D7C118A00FB0533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E49CC1D7C118A00FB0533 /* main.m */; };
+		761E49EF1D7C386F00FB0533 /* TENModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E49E31D7C386F00FB0533 /* TENModel.m */; };
+		761E49F01D7C386F00FB0533 /* TENObservableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E49E61D7C386F00FB0533 /* TENObservableObject.m */; };
+		761E49F11D7C386F00FB0533 /* TENView.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E49E91D7C386F00FB0533 /* TENView.m */; };
+		761E49F21D7C386F00FB0533 /* TENViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E49EC1D7C386F00FB0533 /* TENViewController.m */; };
+		761E49F61D7C38A600FB0533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 761E49F41D7C38A600FB0533 /* Main.storyboard */; };
+		761E49F81D7C38C800FB0533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 761E49F71D7C38C800FB0533 /* Assets.xcassets */; };
+		761E49FF1D7C399200FB0533 /* TENGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E49FE1D7C399200FB0533 /* TENGalleryViewController.m */; };
+		761E4A081D7C3A5800FB0533 /* TENGalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A071D7C3A5800FB0533 /* TENGalleryView.m */; };
+		761E4A0C1D7C3C8600FB0533 /* TENItemsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A0B1D7C3C8600FB0533 /* TENItemsModel.m */; };
+		761E4A111D7C3E1E00FB0533 /* TENGalleryCollectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A0F1D7C3E1E00FB0533 /* TENGalleryCollectionItem.m */; };
+		761E4A121D7C3E1E00FB0533 /* TENGalleryCollectionItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 761E4A101D7C3E1E00FB0533 /* TENGalleryCollectionItem.xib */; };
+		761E4A151D7C409E00FB0533 /* TENMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A141D7C409E00FB0533 /* TENMacro.m */; };
+		761E4A1B1D7C5BA200FB0533 /* TENFullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A191D7C5BA200FB0533 /* TENFullViewController.m */; };
+		761E4A211D7C5BE300FB0533 /* TENFullView.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A201D7C5BE300FB0533 /* TENFullView.m */; };
+		761E4A251D7C956D00FB0533 /* TENWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A241D7C956D00FB0533 /* TENWindow.m */; };
+		761E4A2F1D7CB15700FB0533 /* TENConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A2E1D7CB15700FB0533 /* TENConstant.m */; };
+		761E4A331D7D4FF300FB0533 /* NSImage+GaussBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 761E4A321D7D4FF300FB0533 /* NSImage+GaussBlur.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		761E49C51D7C118A00FB0533 /* TENGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TENGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		761E49C81D7C118A00FB0533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		761E49C91D7C118A00FB0533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		761E49CC1D7C118A00FB0533 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		761E49D61D7C118A00FB0533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		761E49E21D7C386F00FB0533 /* TENModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENModel.h; sourceTree = "<group>"; };
+		761E49E31D7C386F00FB0533 /* TENModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENModel.m; sourceTree = "<group>"; };
+		761E49E51D7C386F00FB0533 /* TENObservableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENObservableObject.h; sourceTree = "<group>"; };
+		761E49E61D7C386F00FB0533 /* TENObservableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENObservableObject.m; sourceTree = "<group>"; };
+		761E49E81D7C386F00FB0533 /* TENView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENView.h; sourceTree = "<group>"; };
+		761E49E91D7C386F00FB0533 /* TENView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENView.m; sourceTree = "<group>"; };
+		761E49EB1D7C386F00FB0533 /* TENViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENViewController.h; sourceTree = "<group>"; };
+		761E49EC1D7C386F00FB0533 /* TENViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENViewController.m; sourceTree = "<group>"; };
+		761E49F51D7C38A600FB0533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		761E49F71D7C38C800FB0533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		761E49FD1D7C399200FB0533 /* TENGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENGalleryViewController.h; sourceTree = "<group>"; };
+		761E49FE1D7C399200FB0533 /* TENGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENGalleryViewController.m; sourceTree = "<group>"; };
+		761E4A061D7C3A5800FB0533 /* TENGalleryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENGalleryView.h; sourceTree = "<group>"; };
+		761E4A071D7C3A5800FB0533 /* TENGalleryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENGalleryView.m; sourceTree = "<group>"; };
+		761E4A0A1D7C3C8600FB0533 /* TENItemsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENItemsModel.h; sourceTree = "<group>"; };
+		761E4A0B1D7C3C8600FB0533 /* TENItemsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENItemsModel.m; sourceTree = "<group>"; };
+		761E4A0E1D7C3E1E00FB0533 /* TENGalleryCollectionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENGalleryCollectionItem.h; sourceTree = "<group>"; };
+		761E4A0F1D7C3E1E00FB0533 /* TENGalleryCollectionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENGalleryCollectionItem.m; sourceTree = "<group>"; };
+		761E4A101D7C3E1E00FB0533 /* TENGalleryCollectionItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TENGalleryCollectionItem.xib; sourceTree = "<group>"; };
+		761E4A131D7C409E00FB0533 /* TENMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENMacro.h; sourceTree = "<group>"; };
+		761E4A141D7C409E00FB0533 /* TENMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENMacro.m; sourceTree = "<group>"; };
+		761E4A161D7C41A200FB0533 /* TENGalleryPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TENGalleryPrefixHeader.pch; sourceTree = "<group>"; };
+		761E4A181D7C5BA200FB0533 /* TENFullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENFullViewController.h; sourceTree = "<group>"; };
+		761E4A191D7C5BA200FB0533 /* TENFullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENFullViewController.m; sourceTree = "<group>"; };
+		761E4A1F1D7C5BE300FB0533 /* TENFullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENFullView.h; sourceTree = "<group>"; };
+		761E4A201D7C5BE300FB0533 /* TENFullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENFullView.m; sourceTree = "<group>"; };
+		761E4A231D7C956D00FB0533 /* TENWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENWindow.h; sourceTree = "<group>"; };
+		761E4A241D7C956D00FB0533 /* TENWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENWindow.m; sourceTree = "<group>"; };
+		761E4A2D1D7CB15700FB0533 /* TENConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENConstant.h; sourceTree = "<group>"; };
+		761E4A2E1D7CB15700FB0533 /* TENConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENConstant.m; sourceTree = "<group>"; };
+		761E4A311D7D4FF300FB0533 /* NSImage+GaussBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+GaussBlur.h"; sourceTree = "<group>"; };
+		761E4A321D7D4FF300FB0533 /* NSImage+GaussBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+GaussBlur.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		761E49C21D7C118A00FB0533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		761E49BC1D7C118A00FB0533 = {
+			isa = PBXGroup;
+			children = (
+				761E49DC1D7C386F00FB0533 /* Resources */,
+				761E49DD1D7C386F00FB0533 /* Source */,
+				761E49C71D7C118A00FB0533 /* TENGallery */,
+				761E49C61D7C118A00FB0533 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		761E49C61D7C118A00FB0533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				761E49C51D7C118A00FB0533 /* TENGallery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		761E49C71D7C118A00FB0533 /* TENGallery */ = {
+			isa = PBXGroup;
+			children = (
+				761E49C81D7C118A00FB0533 /* AppDelegate.h */,
+				761E49C91D7C118A00FB0533 /* AppDelegate.m */,
+				761E49D61D7C118A00FB0533 /* Info.plist */,
+				761E49CB1D7C118A00FB0533 /* Supporting Files */,
+				761E4A161D7C41A200FB0533 /* TENGalleryPrefixHeader.pch */,
+			);
+			path = TENGallery;
+			sourceTree = "<group>";
+		};
+		761E49CB1D7C118A00FB0533 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				761E49CC1D7C118A00FB0533 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		761E49DC1D7C386F00FB0533 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				761E49F71D7C38C800FB0533 /* Assets.xcassets */,
+				761E49F31D7C38A600FB0533 /* Base.lproj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		761E49DD1D7C386F00FB0533 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				761E49DE1D7C386F00FB0533 /* Library */,
+				761E49ED1D7C386F00FB0533 /* Models */,
+				761E49EE1D7C386F00FB0533 /* UI */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		761E49DE1D7C386F00FB0533 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				761E49DF1D7C386F00FB0533 /* Categories */,
+				761E49E01D7C386F00FB0533 /* Classes */,
+				761E4A131D7C409E00FB0533 /* TENMacro.h */,
+				761E4A141D7C409E00FB0533 /* TENMacro.m */,
+				761E4A2D1D7CB15700FB0533 /* TENConstant.h */,
+				761E4A2E1D7CB15700FB0533 /* TENConstant.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		761E49DF1D7C386F00FB0533 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A301D7D4FC700FB0533 /* NSImage+GaussBlur */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		761E49E01D7C386F00FB0533 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A221D7C955A00FB0533 /* TENWindow */,
+				761E49E11D7C386F00FB0533 /* TENModel */,
+				761E49E41D7C386F00FB0533 /* TENObservableObject */,
+				761E49E71D7C386F00FB0533 /* TENView */,
+				761E49EA1D7C386F00FB0533 /* TENViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		761E49E11D7C386F00FB0533 /* TENModel */ = {
+			isa = PBXGroup;
+			children = (
+				761E49E21D7C386F00FB0533 /* TENModel.h */,
+				761E49E31D7C386F00FB0533 /* TENModel.m */,
+			);
+			path = TENModel;
+			sourceTree = "<group>";
+		};
+		761E49E41D7C386F00FB0533 /* TENObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+				761E49E51D7C386F00FB0533 /* TENObservableObject.h */,
+				761E49E61D7C386F00FB0533 /* TENObservableObject.m */,
+			);
+			path = TENObservableObject;
+			sourceTree = "<group>";
+		};
+		761E49E71D7C386F00FB0533 /* TENView */ = {
+			isa = PBXGroup;
+			children = (
+				761E49E81D7C386F00FB0533 /* TENView.h */,
+				761E49E91D7C386F00FB0533 /* TENView.m */,
+			);
+			path = TENView;
+			sourceTree = "<group>";
+		};
+		761E49EA1D7C386F00FB0533 /* TENViewController */ = {
+			isa = PBXGroup;
+			children = (
+				761E49EB1D7C386F00FB0533 /* TENViewController.h */,
+				761E49EC1D7C386F00FB0533 /* TENViewController.m */,
+			);
+			path = TENViewController;
+			sourceTree = "<group>";
+		};
+		761E49ED1D7C386F00FB0533 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A091D7C3C6100FB0533 /* TENItemsModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		761E49EE1D7C386F00FB0533 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A171D7C5B8000FB0533 /* TENFullViewController */,
+				761E4A0D1D7C3E0900FB0533 /* TENGalleryCollectionItem */,
+				761E49FC1D7C398000FB0533 /* TENGalleryViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		761E49F31D7C38A600FB0533 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				761E49F41D7C38A600FB0533 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		761E49FC1D7C398000FB0533 /* TENGalleryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A001D7C39EA00FB0533 /* Views */,
+				761E49FD1D7C399200FB0533 /* TENGalleryViewController.h */,
+				761E49FE1D7C399200FB0533 /* TENGalleryViewController.m */,
+			);
+			path = TENGalleryViewController;
+			sourceTree = "<group>";
+		};
+		761E4A001D7C39EA00FB0533 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A051D7C3A4D00FB0533 /* TENGalleryView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		761E4A051D7C3A4D00FB0533 /* TENGalleryView */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A061D7C3A5800FB0533 /* TENGalleryView.h */,
+				761E4A071D7C3A5800FB0533 /* TENGalleryView.m */,
+			);
+			path = TENGalleryView;
+			sourceTree = "<group>";
+		};
+		761E4A091D7C3C6100FB0533 /* TENItemsModel */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A0A1D7C3C8600FB0533 /* TENItemsModel.h */,
+				761E4A0B1D7C3C8600FB0533 /* TENItemsModel.m */,
+			);
+			path = TENItemsModel;
+			sourceTree = "<group>";
+		};
+		761E4A0D1D7C3E0900FB0533 /* TENGalleryCollectionItem */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A0E1D7C3E1E00FB0533 /* TENGalleryCollectionItem.h */,
+				761E4A0F1D7C3E1E00FB0533 /* TENGalleryCollectionItem.m */,
+				761E4A101D7C3E1E00FB0533 /* TENGalleryCollectionItem.xib */,
+			);
+			path = TENGalleryCollectionItem;
+			sourceTree = "<group>";
+		};
+		761E4A171D7C5B8000FB0533 /* TENFullViewController */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A1D1D7C5BB500FB0533 /* Views */,
+				761E4A181D7C5BA200FB0533 /* TENFullViewController.h */,
+				761E4A191D7C5BA200FB0533 /* TENFullViewController.m */,
+			);
+			path = TENFullViewController;
+			sourceTree = "<group>";
+		};
+		761E4A1D1D7C5BB500FB0533 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A1E1D7C5BC800FB0533 /* TENFullView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		761E4A1E1D7C5BC800FB0533 /* TENFullView */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A1F1D7C5BE300FB0533 /* TENFullView.h */,
+				761E4A201D7C5BE300FB0533 /* TENFullView.m */,
+			);
+			path = TENFullView;
+			sourceTree = "<group>";
+		};
+		761E4A221D7C955A00FB0533 /* TENWindow */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A231D7C956D00FB0533 /* TENWindow.h */,
+				761E4A241D7C956D00FB0533 /* TENWindow.m */,
+			);
+			path = TENWindow;
+			sourceTree = "<group>";
+		};
+		761E4A301D7D4FC700FB0533 /* NSImage+GaussBlur */ = {
+			isa = PBXGroup;
+			children = (
+				761E4A311D7D4FF300FB0533 /* NSImage+GaussBlur.h */,
+				761E4A321D7D4FF300FB0533 /* NSImage+GaussBlur.m */,
+			);
+			path = "NSImage+GaussBlur";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		761E49C41D7C118A00FB0533 /* TENGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 761E49D91D7C118A00FB0533 /* Build configuration list for PBXNativeTarget "TENGallery" */;
+			buildPhases = (
+				761E49C11D7C118A00FB0533 /* Sources */,
+				761E49C21D7C118A00FB0533 /* Frameworks */,
+				761E49C31D7C118A00FB0533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TENGallery;
+			productName = TENGallery;
+			productReference = 761E49C51D7C118A00FB0533 /* TENGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		761E49BD1D7C118A00FB0533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = 444ten;
+				TargetAttributes = {
+					761E49C41D7C118A00FB0533 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 761E49C01D7C118A00FB0533 /* Build configuration list for PBXProject "TENGallery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 761E49BC1D7C118A00FB0533;
+			productRefGroup = 761E49C61D7C118A00FB0533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				761E49C41D7C118A00FB0533 /* TENGallery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		761E49C31D7C118A00FB0533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761E49F61D7C38A600FB0533 /* Main.storyboard in Resources */,
+				761E4A121D7C3E1E00FB0533 /* TENGalleryCollectionItem.xib in Resources */,
+				761E49F81D7C38C800FB0533 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		761E49C11D7C118A00FB0533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761E49EF1D7C386F00FB0533 /* TENModel.m in Sources */,
+				761E49FF1D7C399200FB0533 /* TENGalleryViewController.m in Sources */,
+				761E49CD1D7C118A00FB0533 /* main.m in Sources */,
+				761E4A251D7C956D00FB0533 /* TENWindow.m in Sources */,
+				761E4A111D7C3E1E00FB0533 /* TENGalleryCollectionItem.m in Sources */,
+				761E4A331D7D4FF300FB0533 /* NSImage+GaussBlur.m in Sources */,
+				761E49F21D7C386F00FB0533 /* TENViewController.m in Sources */,
+				761E49F01D7C386F00FB0533 /* TENObservableObject.m in Sources */,
+				761E4A2F1D7CB15700FB0533 /* TENConstant.m in Sources */,
+				761E4A081D7C3A5800FB0533 /* TENGalleryView.m in Sources */,
+				761E4A1B1D7C5BA200FB0533 /* TENFullViewController.m in Sources */,
+				761E4A211D7C5BE300FB0533 /* TENFullView.m in Sources */,
+				761E49F11D7C386F00FB0533 /* TENView.m in Sources */,
+				761E49CA1D7C118A00FB0533 /* AppDelegate.m in Sources */,
+				761E4A151D7C409E00FB0533 /* TENMacro.m in Sources */,
+				761E4A0C1D7C3C8600FB0533 /* TENItemsModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		761E49F41D7C38A600FB0533 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				761E49F51D7C38A600FB0533 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		761E49D71D7C118A00FB0533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		761E49D81D7C118A00FB0533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		761E49DA1D7C118A00FB0533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TENGallery/TENGalleryPrefixHeader.pch";
+				INFOPLIST_FILE = TENGallery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-44ten.TENGallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		761E49DB1D7C118A00FB0533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TENGallery/TENGalleryPrefixHeader.pch";
+				INFOPLIST_FILE = TENGallery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-44ten.TENGallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		761E49C01D7C118A00FB0533 /* Build configuration list for PBXProject "TENGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761E49D71D7C118A00FB0533 /* Debug */,
+				761E49D81D7C118A00FB0533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		761E49D91D7C118A00FB0533 /* Build configuration list for PBXNativeTarget "TENGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				761E49DA1D7C118A00FB0533 /* Debug */,
+				761E49DB1D7C118A00FB0533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 761E49BD1D7C118A00FB0533 /* Project object */;
+}
